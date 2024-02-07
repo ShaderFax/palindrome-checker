@@ -1,9 +1,13 @@
-const getText = document.getElementById('text-input');
-const getButton = document.getElementById('check-btn');
-const getResult = document.getElementById('result');
+const textInput = document.getElementById('text-input');
+const checkBtn = document.getElementById('check-btn');
+const result = document.getElementById('result');
 
 function checkPalindrome() {
-    
+    alertMsg();
 }
 
-getButton.addEventListener("click", checkPalindrome());
+function alertMsg() {
+    window.alert("Please input a value");
+}
+
+checkBtn.addEventListener("click", checkPalindrome());
